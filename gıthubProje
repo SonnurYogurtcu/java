@@ -1,0 +1,10 @@
+public class ekranaYazdırma {
+
+	public static void main(String[] args) {
+		String yazi1="Github";
+		String yazi2="Projesi";
+		
+		System.out.println(yazi1 + "\t"+yazi2);
+	}
+
+}
