@@ -1,0 +1,21 @@
+java.util.Scanner'ı içe aktarın;
+
+halk sınıfı Yazdırma {
+
+	public static void main(String[] args) {
+		Tarayıcı taraması = yeni Tarayıcı(System.in);
+		System.out.print("Kullanıcı Adınızı Giriniz: ");
+		String kullaniciAdi = scan.nextLine();
+		System.out.print("Şifrenizi Giriniz: ");
+		String sifre = scan.nextLine();
+		
+		if(kullaniciAdi.equals("admin")&& sifre.equals("1234")) {
+			System.out.println("Giriş başarılı.");
+		}
+		başka {
+			System.out.println("Kullanıcı Adı veya Şifre Hatalı");
+		}
+			
+	}
+
+}
