@@ -1,0 +1,10 @@
+halk sınıfı Yazdırma {
+
+	public static void main(String[] args) {
+		çift ​​sayi1=12.4;
+		çift ​​sayi2=21.2;
+		
+		System.out.println(sayi1 + sayi2);
+	}
+
+}
