@@ -1,0 +1,12 @@
+java.util.Scanner'ı içe aktarın;
+
+halk sınıfı Yazdırma {
+
+	public static void main(String[] args) {
+		System.out.print("Adınızı Giriniz: ");
+		Tarayıcı taraması= yeni Tarayıcı(System.in);
+		String isim= scan.nextLine();
+		System.out.println(isim + " GitHub'a hoşgeldin.");
+	}
+
+}
