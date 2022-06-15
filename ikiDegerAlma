@@ -1,0 +1,15 @@
+java.util.Scanner'ı içe aktarın;
+
+halk sınıfı Yazdırma {
+
+	public static void main(String[] args) {
+		System.out.print("Bulunduğunuz Yılı Giriniz: ");
+		Tarayıcı taraması= yeni Tarayıcı(System.in);
+		int yil = scan.nextInt();
+		System.out.print("Doğum Yılınızı Giriniz: ");
+		int dogumYili = scan.nextInt();
+			
+		System.out.println((yil-dogumYili)+ " yaşlısınız.");
+	}
+
+}
