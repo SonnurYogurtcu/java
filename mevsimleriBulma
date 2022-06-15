@@ -1,0 +1,38 @@
+java.util.Scanner'ı içe aktarın;
+
+halk sınıfı Yazdırma {
+
+	public static void main(String[] args) {
+		System.out.print("Bir ay giriniz: ");
+		Tarayıcı taraması = yeni Tarayıcı(System.in);
+		String ay = scan.nextLine();
+		
+		geçiş(ay) {
+		"Aralık" vakası:
+		durum "Ocak":
+		"Şubat" vakası:
+			System.out.println("Kış Mevsimi");
+			kırmak;
+		"Mart" vakası:
+		"Nisan" vakası:
+		"Mayıs" vakası:
+			System.out.println("İlkbahar Mevsimi");
+			kırmak;
+		"Haziran" vakası:
+		durum "Temmuz":
+		"Ağustos" vakası:
+			System.out.println("Yaz Mevsimi");
+			kırmak;
+		"Eylül" vakası:
+		durum "Ekim":
+		"Kasım" vakası:
+			System.out.println("Sonbahar Mevsimi");
+			kırmak;
+		varsayılan:
+			System.out.println("Geçerli giriş yapınız: ");
+			kırmak;
+		}
+			
+	}
+
+}
