@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class ekranaYazdırma {
+
+	public static void main(String[] args) {
+		int[] sayilar= {21,42,3,10,17,0};
+		Scanner scan1= new Scanner(System.in);
+		
+		for(int i=0; i<sayilar.length; i++ ) 
+		{
+			System.out.print(sayilar[i]+ "\t ");
+		}
+		System.out.println();
+		
+	    System.out.println("Yukarıda belirtilen sayılardan birini giriniz: ");
+		int secim=scan1.nextInt();
+		switch (secim) {
+		case 21:
+			System.out.println("Girmiş olduğunuz sayı dizinin 0.indisinde");
+			break;
+		case 42:
+			System.out.println("Girmiş olduğunuz sayı dizinin 1.indisinde");
+			break;
+		case 3:
+			System.out.println("Girmiş olduğunuz sayı dizinin 2.indisinde");
+			break;
+		case 10:
+			System.out.println("Girmiş olduğunuz sayı dizinin 3.indisinde");
+			break;
+		case 17:
+			System.out.println("Girmiş olduğunuz sayı dizinin 4.indisinde");
+			break;
+		case 0:
+			System.out.println("Girmiş olduğunuz sayı dizinin 5.indisinde");
+			break;
+		default:
+			System.out.println("Geçersiz bir değer girdiniz!");
+			break;
+		}
+
+	}
+
+}
