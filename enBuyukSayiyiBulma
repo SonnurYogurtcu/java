@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class ekranaYazdırma {
+
+	public static void main(String[] args) {
+		int sayi1, sayi2, sayi3, enbuyuk;
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Birinci sayıyı giriniz: ");
+		sayi1=scan.nextInt();
+		
+		System.out.println("İkinci sayıyı giriniz: ");
+		sayi2=scan.nextInt();
+		
+		System.out.println("Üçüncü sayıyı giriniz: ");
+		sayi3=scan.nextInt();
+		
+		enbuyuk=sayi1;
+		
+		if(enbuyuk<sayi2) 
+			enbuyuk=sayi2;
+		if(enbuyuk<sayi3)
+			enbuyuk=sayi3;
+		System.out.println("En Büyük Sayı: " + enbuyuk );
+	}
+
+}
