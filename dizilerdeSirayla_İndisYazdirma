@@ -4,11 +4,11 @@ public class ekranaYazdırma {
 
 	public static void main(String[] args) {
 		
-		int[] sayilar1= {23,43,56,76,87,90};
+		int[] sayilar= {23,43,56,76,87,90};
 		
-		for(int i=0; i<sayilar1.length; i++)
-		{
-			System.out.println(sayilar1[i]+" sayısı dizinin "+ i + ". indisinde yer almaktadır.");
+		for(int i=0; i<sayilar.length; i++)
+		 
+			System.out.println(sayilar[i]+" sayısı dizinin "+ i + ". indisinde yer almaktadır.");
 		}
 		
 	}
