@@ -1,0 +1,26 @@
+java.util.Scanner'ı içe aktarın;
+
+halk sınıfı Yazdırma {
+
+	public static void main(String[] args) {
+		Tarayıcı taraması = yeni Tarayıcı(System.in);
+		System.out.println("Alanını Hesaplamak şekliiz: 1- Kare, 2- Dikdörtgen");
+		int secim = scan.nextInt();
+		if(seçim==1){
+			System.out.println("Bir kenarı giriniz: ");
+			int tesisat= scan.nextInt();
+			int alan=uzunluk*uzunluk;
+			System.out.println("Karenin alanı "+ alan);
+		}
+		if(seçim==2){
+			System.out.println("Kısa kenar giriniz: ");
+			int yoluyla1=scan.nextInt();
+			System.out.println("Uzun kenar giriniz: ");
+			int yoluyla2=scan.nextInt();
+			int alan=uzunluk1*uzunluk2;
+			System.out.println("Dikdörtgenin alanı " + alan);
+		}
+		
+	}
+
+}
