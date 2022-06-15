@@ -1,0 +1,12 @@
+java.util.Scanner'ı içe aktarın;
+
+halk sınıfı Yazdırma {
+
+	public static void main(String[] args) {
+		System.out.print("Bir sayı giriniz: ");
+		Tarayıcı taraması= yeni Tarayıcı(System.in);
+		int derece= scan.nextInt();
+		System.out.println("Girdiğiniz değer: " + değer);
+	}
+
+}
