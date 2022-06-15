@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+public class ekranaYazdırma {
+
+	public static void main(String[] args) {
+		double vizeNot, finalNot, degerlendirme;
+		double ortalama=0;
+		Scanner scan = new Scanner(System.in);
+		
+		
+		
+		System.out.println("Okuduğunuz Fakülteyi Seçiniz: 1- Eğitim Fakültesi, 2- Diğer Fakülteler");
+		int secim = scan.nextInt();
+		if(secim==1) {
+			System.out.println("Vize notunuzu giriniz: ");
+			vizeNot = scan.nextInt();
+			
+			System.out.println("Final notunuzu giriniz: ");
+			finalNot = scan.nextInt();
+			
+			System.out.println("Değerlendirme notunuzu giriniz: ");
+			degerlendirme = scan.nextInt();
+			
+			ortalama = ((vizeNot*4/10)+(finalNot*5/10)+(degerlendirme*1/10));
+			
+		}
+		else if(secim==2) {
+			System.out.println("Vize notunuzu giriniz: ");
+			vizeNot = scan.nextInt();
+			
+			System.out.println("Final notunuzu giriniz: ");
+			finalNot = scan.nextInt();
+			
+			ortalama = ((vizeNot*4/10)+(finalNot*6/10));
+		}
+		else {
+			System.out.println("Geçersiz Seçim");
+		}
+		
+		System.out.println("Not ortalamanız: "+ ortalama);
+		
+		
+		if(ortalama>=85) {
+			System.out.println("Harf Notunuz: AA");
+		}
+		else if(ortalama>=75) {
+			System.out.println("Harf Notunuz: BB");
+		}
+		else if(ortalama>=65) {
+			System.out.println("Harf Notunuz: CC");
+		}
+		else if(ortalama>=50) {
+			System.out.println("Harf Notunuz: DD");
+		}
+		else {
+			System.out.println("Harf Notunuz: FF");
+		}
+		
+		
+	}
+
+}
