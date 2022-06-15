@@ -1,0 +1,22 @@
+java.util.Scanner'ı içe aktarın;
+
+halk sınıfı Yazdırma {
+
+	public static void main(String[] args) {
+		System.out.print("Bir sayi giriniz: ");
+		Tarayıcı taraması = yeni Tarayıcı(System.in);
+		int sayi = scan.nextInt();
+		
+		if(sayi<20) {
+			System.out.println("Girdiğiniz sayı 20'den düşmüş.");
+		}
+		
+		else if(sayi>20) {
+			System.out.println("Girdiğiniz sayı 20'den büyüktür.");
+		}
+		başka {
+			System.out.println("Girdiğiniz sayı 20'ye devam.");
+		}
+	}
+
+}
