@@ -1,0 +1,10 @@
+public class ekranaYazdırma {
+
+	public static void main(String[] args) {
+		String yazi1="JAVA ";
+		String yazi2="Öğreniyorum";
+		
+		System.out.println(yazi1+yazi2);
+	}
+
+}
