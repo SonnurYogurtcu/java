@@ -1,0 +1,10 @@
+halk sınıfı Yazdırma {
+
+	public static void main(String[] args) {
+		int say1=8;
+		int sayi12=99;
+		
+		System.out.println(yazı1 + "" + yazi2);
+	}
+
+}
